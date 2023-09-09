@@ -1,0 +1,193 @@
+
+
+header img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.card-one{
+    outline: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    width: 75vw;
+}
+
+
+.c1-p{
+    display: flex;
+    justify-content: center;
+    outline: 1px solid red;
+    width: 100%;
+    justify-content: space-evenly
+}
+
+.c1-p div{
+    width: 30%;
+    text-align: left;
+    padding-left: 100px;
+    
+}
+
+.c1-p img{
+    width: 120%;
+
+}
+
+.c2-p{
+    display: flex;
+    justify-content: space-around;
+    outline: 1px solid red;
+    width: 100%;
+}
+
+.c2-p div{
+    width: 30%;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.c2-p img{
+    width: 120%;
+
+}
+
+.c3-p{
+    display: flex;
+    justify-content: space-around;
+    outline: 1px solid red;
+    width: 100%;
+}
+
+.c3-p div{
+    width: 30%;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.c3-p img{
+    width: 121%;
+
+}
+
+.c4-p{
+    display: flex;
+    justify-content: space-around;
+    outline: 1px solid red;
+    width: 100%;
+}
+
+.c4-p div{
+    width: 30%;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.c4-p img{
+    width: 120%;
+
+}
+
+
+.section1{
+    width:70vw ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 div{
+    width: 25%;
+    text-align: left;
+}
+
+
+.section2{
+    outline: 1px solid green;
+    width:75vw ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.section2 div{
+    width: 200px;
+    text-align: left;
+    
+}
+
+.section2 img{
+    width: 190%;
+
+}
+
+
+.partners img{
+    width: 75vw;
+    padding: 0px 300px 0px 30px;
+}
+
+
+footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsla(240, 80%, 6%, 0.928);
+    color:white;
+    width: 100vw;
+    height: 1000px;
+
+}
+
+footer div{
+    
+}
+
+
+
+.footer-logo{
+    /*outline: 1px solid pink;*/
+    width: 26vw;
+    min-width: 350px;
+    height: 81vh;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-img{
+    max-width: 400px;
+}
+
+.icons{
+    background: linear-gradient(to bottom, black, white, black);
+    width: 24vw;
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 350px;
+    min-width: 310px;
+}
+
+.footer-links{
+    width: 70vw;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-top: 10px; 
+}
+
+.footer-links div{
+    width: 25%;
+    min-width: 25%;
+    padding-top: 20px;
+}
+
+.footer-links p{
+    color:rgb(180, 113, 180);
+}
+
+
+@media(max-width: 1248px){
+
+body{
+    display: none;    
+}
+}
