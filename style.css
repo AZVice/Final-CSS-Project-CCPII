@@ -7,17 +7,16 @@ header img{
 }
 
 .card-one{
-    outline: 1px solid black;
     text-align: center;
     margin: 0 auto;
     width: 75vw;
+    margin-top: 50px;
 }
 
 
 .c1-p{
     display: flex;
     justify-content: center;
-    outline: 1px solid red;
     width: 100%;
     justify-content: space-evenly
 }
@@ -37,8 +36,8 @@ header img{
 .c2-p{
     display: flex;
     justify-content: space-around;
-    outline: 1px solid red;
     width: 100%;
+    margin-top: 50px;
 }
 
 .c2-p div{
@@ -55,8 +54,9 @@ header img{
 .c3-p{
     display: flex;
     justify-content: space-around;
-    outline: 1px solid red;
     width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .c3-p div{
@@ -73,14 +73,16 @@ header img{
 .c4-p{
     display: flex;
     justify-content: space-around;
-    outline: 1px solid red;
     width: 100%;
+    margin-top: 50px;
 }
 
 .c4-p div{
     width: 30%;
     text-align: left;
     padding-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .c4-p img{
@@ -93,6 +95,8 @@ header img{
     width:70vw ;
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .section1 div{
@@ -102,10 +106,11 @@ header img{
 
 
 .section2{
-    outline: 1px solid green;
     width:75vw ;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
+
     
 }
 
@@ -120,10 +125,15 @@ header img{
 
 }
 
+.partners{
+    margin-top: 50px;
+}
+
 
 .partners img{
     width: 75vw;
     padding: 0px 300px 0px 30px;
+
 }
 
 
@@ -138,9 +148,7 @@ footer{
 
 }
 
-footer div{
-    
-}
+
 
 
 
@@ -181,11 +189,11 @@ footer div{
 }
 
 .footer-links p{
-    color:rgb(180, 113, 180);
+    color:rgb(180, 113, 180); 
 }
 
 
-@media(max-width: 1248px){
+@media(max-width: 1248px){   /*this page is not responsive it will go black if viewed in a handheld device*/
 
 body{
     display: none;    
